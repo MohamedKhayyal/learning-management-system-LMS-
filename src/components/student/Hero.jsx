@@ -1,3 +1,5 @@
+import Companies from "./Companies";
+
 export default function Hero() {
   return (
     <section className="w-full bg-gradient-to-b from-[#eaffff] to-white">
@@ -40,38 +42,7 @@ export default function Hero() {
             Search
           </button>
         </form>
-
-        <div className="mt-12 md:mt-16">
-          <p className="text-xs text-slate-400">Trusted by learners from</p>
-
-          <div className="mt-6 flex items-center justify-center gap-8 md:gap-12 flex-wrap">
-            <img
-              src="/src/assets/microsoft_logo.svg"
-              alt="Microsoft"
-              className="h-6 md:h-8"
-            />
-            <img
-              src="/src/assets/walmart_logo.svg"
-              alt="Walmart"
-              className="h-6 md:h-8"
-            />
-            <img
-              src="/src/assets/accenture_logo.svg"
-              alt="Accenture"
-              className="h-6 md:h-8"
-            />
-            <img
-              src="/src/assets/adobe_logo.svg"
-              alt="Adobe"
-              className="h-6 md:h-8"
-            />
-            <img
-              src="/src/assets/paypal_logo.svg"
-              alt="PayPal"
-              className="h-6 md:h-8"
-            />
-          </div>
-        </div>
+        <Companies />
       </div>
     </section>
   );

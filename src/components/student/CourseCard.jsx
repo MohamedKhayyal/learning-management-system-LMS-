@@ -34,7 +34,6 @@ export default function CourseCard({
 
           <div className="mt-3 flex items-center justify-between">
             <div className="flex items-center gap-2">
-              {/* ⭐ Rating Component */}
               <Rating rating={rating} />
 
               <span className="text-xs text-slate-500">
