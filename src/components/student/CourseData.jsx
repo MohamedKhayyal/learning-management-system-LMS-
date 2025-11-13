@@ -1,0 +1,44 @@
+const courses = [
+  {
+    id: 1,
+    image: "/src/assets/course_1.png",
+    title: "Build Text to Image SaaS App in React JS",
+    author: "Richard James",
+    rating: 4.5,
+    reviews: 122,
+    price: "$10.99",
+    badge: "Full Stack",
+  },
+  {
+    id: 2,
+    image: "/src/assets/course_2.png",
+    title: "Build AI BG Removal SaaS App in React JS",
+    author: "Richard James",
+    rating: 4.5,
+    reviews: 122,
+    price: "$10.99",
+    badge: "AI/ML",
+  },
+  {
+    id: 3,
+    image: "/src/assets/course_3.png",
+    title: "React Router Complete Course in One Video",
+    author: "Richard James",
+    rating: 4.8,
+    reviews: 200,
+    price: "$10.99",
+    badge: null,
+  },
+  {
+    id: 4,
+    image: "/src/assets/course_4.png",
+    title: "Build Full Stack E-Commerce App in React JS",
+    author: "Richard James",
+    rating: 4.7,
+    reviews: 150,
+    price: "$10.99",
+    badge: "Full Stack",
+  },
+];
+
+export default courses;
