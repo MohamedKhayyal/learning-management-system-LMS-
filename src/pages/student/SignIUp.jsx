@@ -11,6 +11,7 @@ export default function SignUp() {
           src="/src/assets/signIn.jpg"
           alt="Sign up visual"
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       </div>
 

@@ -17,7 +17,12 @@ export default function CourseCard({
     <article className="w-full max-w-xs bg-white rounded-lg border border-gray-200 shadow-sm hover:shadow-md transition p-3">
       <Link to={`/courses/${id ?? ""}`} className="block">
         <div className="relative rounded-md overflow-hidden">
-          <img src={image} alt={title} className="w-full h-40 object-cover" />
+          <img
+            src={image}
+            alt={title}
+            className="w-full h-40 object-cover"
+            loading="lazy"
+          />
           {badge && (
             <span className="absolute top-3 left-3 bg-green-600 text-white text-xs font-semibold px-2 py-1 rounded">
               {badge}

@@ -16,7 +16,6 @@ export default function CourseSection() {
           deliver results.
         </p>
 
-        {/* Show ONLY 4 courses */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {courses.slice(0, 4).map((course) => (
             <CourseCard key={course.id} {...course} />

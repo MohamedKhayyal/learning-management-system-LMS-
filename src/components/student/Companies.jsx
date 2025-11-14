@@ -16,7 +16,13 @@ export default function Companies() {
       <div className="slider mt-6">
         <div className="slide-track">
           {logos.map((logo, i) => (
-            <img key={i} src={logo} className="slide-img" alt="company logo" />
+            <img
+              key={i}
+              src={logo}
+              className="slide-img"
+              alt="company logo"
+              loading="lazy"
+            />
           ))}
           {logos.map((logo, i) => (
             <img
@@ -24,6 +30,7 @@ export default function Companies() {
               src={logo}
               className="slide-img"
               alt="company logo"
+              loading="lazy"
             />
           ))}
         </div>

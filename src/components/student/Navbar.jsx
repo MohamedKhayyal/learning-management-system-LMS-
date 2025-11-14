@@ -24,8 +24,8 @@ export default function Navbar() {
 
           <div className="flex items-center gap-6">
             <div className="hidden sm:flex items-center gap-6 text-sm text-slate-700">
-              <Link to="/add-course" className="hover:underline">
-                Add Courses
+              <Link to="/" className="hover:underline">
+                Become Educator
               </Link>
               <span className="text-slate-300">|</span>
               <Link to="/login" className="hover:underline">

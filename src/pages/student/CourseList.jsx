@@ -67,14 +67,12 @@ export default function CourseListPage() {
           </div>
         </div>
 
-        {/* grid */}
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
           {filtered.slice(0, visible).map((course) => (
             <CourseCard key={course.id} {...course} />
           ))}
         </div>
 
-        {/* Load more */}
         <div className="flex justify-center mt-8">
           {filtered.length === 0 ? (
             <div className="text-slate-500">No courses found.</div>

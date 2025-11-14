@@ -26,6 +26,7 @@ export default function Hero() {
               src="/src/assets/search_icon.svg"
               alt="Search Icon"
               className="h-5 w-5 opacity-50"
+              loading="lazy"
             />
             <input
               id="hero-search"

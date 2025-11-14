@@ -10,6 +10,7 @@ export default function Login() {
           src="/src/assets/signIn.jpg"
           alt="Sign up visual"
           className="w-full h-full object-cover"
+          loading="lazy"
         />
       </div>
 
@@ -91,6 +92,7 @@ export default function Login() {
                 src="https://www.svgrepo.com/show/355037/google.svg"
                 alt="Google"
                 className="w-5 h-5"
+                loading="lazy"
               />
               <span className="text-sm text-slate-700">
                 Sign in with Google

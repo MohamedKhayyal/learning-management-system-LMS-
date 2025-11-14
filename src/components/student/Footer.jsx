@@ -2,7 +2,6 @@ export default function Footer() {
   return (
     <footer className="w-full bg-[#0c1117] text-white/80 pt-12 px-6 md:px-16 lg:px-24 xl:px-32">
       <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-12">
-        {/* Logo + description */}
         <div className="max-w-80">
           <div className="flex items-center gap-3 mb-4">
             <span className="inline-flex items-center justify-center w-9 h-9 rounded-full bg-[#0577ff] shadow-sm">
@@ -26,7 +25,6 @@ export default function Footer() {
           </p>
         </div>
 
-        {/* Company Links */}
         <div>
           <p className="text-lg font-semibold text-white mb-3">Company</p>
           <ul className="flex flex-col gap-2 text-sm">
